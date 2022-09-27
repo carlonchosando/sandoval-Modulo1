@@ -23,8 +23,14 @@ class SignIn extends Component {
                         <label className="telefono">Telefono</label>
                         <input type="text" className="telefono" placeholder="ingresar Numero de Telefono" />
                     </div>
-
-                                     
+                    <div>
+                        <label className="password">Contraseña</label>
+                        <input type="pasword" className="contraseña" placeholder="Escribe una contraseña" />
+                    </div>
+                    <div>
+                         <label className="password">Confirmar </label>
+                         <input type="pasword" className="contraseña" placeholder="Repite la contraseña" />
+                    </div>                 
                 </form>    
             </div>
           
